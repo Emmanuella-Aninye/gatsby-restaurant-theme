@@ -1,0 +1,90 @@
+.landing-page-container {
+  height: calc(100vh);
+  width: 100%;
+  margin-top: 72px;
+  position: relative;
+  display: block;
+}
+.landing-page-container:before {
+  content: "";
+  width: 100%;
+  height: calc(100vh);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}
+@media screen and (max-width: 600px) {
+  .restaurant-title {
+    font-size: 32px;
+    margin: auto auto 24px auto;
+    width: 250px;
+    height: auto;
+  }
+}
+@media screen and (min-width: 601px) {
+  .restaurant-title {
+    text-align: center;
+    font-size: 64px;
+    width: 100%;
+    height: auto;
+    margin: auto auto 48px auto;
+  }
+}
+@media screen and (max-width: 600px) {
+    .restaurant-description {
+        font-size: 24px;
+        margin: 0px auto auto auto;
+        width: 350px;
+        height: auto;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .restaurant-description {
+        font-size: 32px;
+        width: 100%;
+        margin: 0px auto auto auto;
+        text-align: center;
+    }
+  }
+body {
+  margin: 0;
+}
+
+@media screen and (min-width: 601px) {
+  .restaurant-title-container {
+    margin: auto;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    line-height: 1.4;
+    position: absolute;
+    color: #fff;
+    font-family: "Open Sans Condensed", sans-serif;
+    display: inline-flex;
+    flex-direction: column;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .restaurant-title-container {
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    height: calc(100vh);
+    margin: auto;
+    font-family: "Open Sans Condensed", sans-serif;
+    position: absolute;
+    max-width: 350px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    line-height: 1.4;
+    color: #fff;
+  }
+}

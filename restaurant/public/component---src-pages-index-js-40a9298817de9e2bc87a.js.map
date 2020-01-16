@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/index.js"],"names":["props"],"mappings":"2FAAA,gCACe,mBAAAA,GAAK,OAAI","file":"component---src-pages-index-js-40a9298817de9e2bc87a.js","sourcesContent":["import React from \"react\"\nexport default props => <h1>Hello, world</h1>"],"sourceRoot":""}

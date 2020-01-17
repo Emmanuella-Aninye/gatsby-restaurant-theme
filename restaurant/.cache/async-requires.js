@@ -6,6 +6,6 @@ exports.components = {
   "component---gatsby-theme-restaurant-workspaces-src-pages-hours-and-location-page-js": () => import("./../../gatsby-theme-restaurant-workspaces/src/pages/hours-and-location-page.js" /* webpackChunkName: "component---gatsby-theme-restaurant-workspaces-src-pages-hours-and-location-page-js" */),
   "component---gatsby-theme-restaurant-workspaces-src-pages-menu-page-js": () => import("./../../gatsby-theme-restaurant-workspaces/src/pages/menu-page.js" /* webpackChunkName: "component---gatsby-theme-restaurant-workspaces-src-pages-menu-page-js" */),
   "component---gatsby-theme-restaurant-workspaces-src-pages-theme-page-js": () => import("./../../gatsby-theme-restaurant-workspaces/src/pages/theme-page.js" /* webpackChunkName: "component---gatsby-theme-restaurant-workspaces-src-pages-theme-page-js" */),
-  "component---src-pages-index-js": () => import("./../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */)
+  "component---gatsby-theme-restaurant-workspaces-src-pages-index-js": () => import("./../../gatsby-theme-restaurant-workspaces/src/pages/index.js" /* webpackChunkName: "component---gatsby-theme-restaurant-workspaces-src-pages-index-js" */)
 }
 

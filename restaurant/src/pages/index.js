@@ -1,2 +1,3 @@
 import React from "react"
-export default props => <h1>Hello, world</h1>
+import LandingPage from 'gatsby-theme-restaurant-workspaces/src/pages/landing-page'
+export default props =><LandingPage/>

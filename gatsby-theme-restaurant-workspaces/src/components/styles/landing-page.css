@@ -21,6 +21,7 @@
     margin: auto auto 24px auto;
     width: 250px;
     height: auto;
+    font-family: "Open Sans Condensed", sans-serif;
   }
 }
 @media screen and (min-width: 601px) {
@@ -30,12 +31,14 @@
     width: 100%;
     height: auto;
     margin: auto auto 48px auto;
+    font-family: "Open Sans Condensed", sans-serif;
   }
 }
 @media screen and (max-width: 600px) {
     .restaurant-description {
         font-size: 24px;
         margin: 0px auto auto auto;
+        font-family: 'Open Sans Condensed', sans-serif;
         width: 350px;
         height: auto;
     }
@@ -43,6 +46,7 @@
   @media screen and (min-width: 601px) {
     .restaurant-description {
         font-size: 32px;
+        font-family: 'Open Sans Condensed', sans-serif;
         width: 100%;
         margin: 0px auto auto auto;
         text-align: center;
@@ -50,6 +54,7 @@
   }
 body {
   margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 @media screen and (min-width: 601px) {

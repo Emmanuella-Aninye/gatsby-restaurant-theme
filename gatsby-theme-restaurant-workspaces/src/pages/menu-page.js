@@ -68,11 +68,10 @@ class MenuPage extends Component {
               FOR TWO | 70 • FOR FOUR | 135
             </h1>
           </div>
-          <div style={{ paddingBottom: 32,textAlign:'left' , width:'1200px', display:'grid',  gridGap: 10,gridTemplateColumns:'50% 50%',
-           alignContent:'center', margin:'auto', columnCount:2, gridTemplateRows:'auto'}}>
+          <div className="menu-section">
           {menuItems.map(item=> {
               return(
-                <div style={{marginBottom:32, width:540}}>
+                <div style={{marginBottom:32, width:'100%'}}>
                 <div style={{display:'inline-flex', textAlign:'center',
                  justifyContent:'space-between' , width:'100%'}}>
                 <h1 className="menu-item-name">{item.name.toLocaleUpperCase()}</h1>
@@ -90,12 +89,10 @@ class MenuPage extends Component {
             <h1 className="sub-menu-header-subtext">
               FOR TWO | 70 • FOR FOUR | 135
             </h1>
-          <div style={{ paddingBottom: 32,textAlign:'left' , width:'1200px', display:'grid',
-            gridGap: 10,gridTemplateColumns:'50% 50%',
-           alignContent:'center', margin:'auto', columnCount:2, gridTemplateRows:'auto'}}>
+            <div className="menu-section">
           {menuItems.map(item=> {
               return(
-                <div style={{marginBottom:32, width:540}}>
+                <div style={{marginBottom:32, width:'100%'}}>
                 <div style={{display:'inline-flex', textAlign:'center',
                  justifyContent:'space-between' , width:'100%'}}>
                 <h1 className="menu-item-name">{item.name.toLocaleUpperCase()}</h1>
@@ -113,12 +110,10 @@ class MenuPage extends Component {
             <h1 className="sub-menu-header-subtext">
               FOR TWO | 70 • FOR FOUR | 135
             </h1>
-          <div style={{ paddingBottom: 32,textAlign:'left' , width:'1200px', display:'grid',
-            gridGap: 10,gridTemplateColumns:'50% 50%',
-           alignContent:'center', margin:'auto', columnCount:2, gridTemplateRows:'auto'}}>
+          <div className="menu-section">
           {menuItems.map(item=> {
               return(
-                <div style={{marginBottom:32, width:540}}>
+                <div style={{marginBottom:32, width:'100%'}}>
                 <div style={{display:'inline-flex', textAlign:'center',
                  justifyContent:'space-between' , width:'100%'}}>
                 <h1 className="menu-item-name">{item.name.toLocaleUpperCase()}</h1>

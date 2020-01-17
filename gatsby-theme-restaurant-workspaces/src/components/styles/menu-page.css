@@ -105,6 +105,30 @@
     margin-top:-40px;
     color:#7c7979;
 }
+.menu-item-name,.menu-item-price{
+    font-size: 14px;
+    color: #1e381fe6;
+    font-weight: 500;
+    margin: 8px 24px
+}
+.menu-item-description{
+    font-size: 14px;
+    color:#7c7979;
+    font-weight: 500;
+    margin: 8px 24px;
+}
+.menu-section{
+    padding-bottom: 32px;
+    text-align: left;
+    width: 100%;
+    display: grid;
+    grid-gap: 10;
+    grid-template-columns: 100%;
+    align-content:center;
+    margin: auto;
+    column-count:1;
+    grid-template-rows:auto;
+    }
  }
 
 
@@ -120,7 +144,7 @@
         color:#7c7979;
         font-weight: 500;
         margin: 16px;
-        width: 300px
+        width: 400px
     }
    .menu-top-header {
      text-align: center;
@@ -155,4 +179,16 @@
     margin-top:-40px;
     color:#7c7979;
 }
+.menu-section{
+    padding-bottom: 32px;
+    text-align: left;
+    width: 1200px;
+    display: grid;
+    grid-gap: 10;
+    grid-template-columns: 50% 50%;
+    align-content:center;
+    margin: auto;
+    column-count:2;
+    grid-template-rows:auto;
+    }
  }

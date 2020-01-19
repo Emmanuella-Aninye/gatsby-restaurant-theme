@@ -1,4 +1,7 @@
 {
     "private": true,
-    "workspaces": ["gatsby-theme-restaurant-workspaces", "restaurant"]
-  }
+    "workspaces": [
+        "gatsby-theme-restaurant-workspaces",
+        "restaurant"
+    ]
+}

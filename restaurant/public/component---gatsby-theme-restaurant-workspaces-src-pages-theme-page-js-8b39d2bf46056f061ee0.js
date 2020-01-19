@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{kD8T:function(e,n,t){"use strict";t.r(n);var o=t("ERkP"),r=t.n(o);n.default=function(e){return r.a.createElement("h1",null,"Hello, from the theme!")}}}]);
+//# sourceMappingURL=component---gatsby-theme-restaurant-workspaces-src-pages-theme-page-js-8b39d2bf46056f061ee0.js.map

@@ -1,9 +1,10 @@
 import React from "react"
-import LandingPage from "gatsby-theme-restaurant-workspaces/src/pages/landing-page"
 
 const index = () => {
     return (
-            <LandingPage/>
+        <h1>
+            lol
+        </h1>
     );
 };
 
